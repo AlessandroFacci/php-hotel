@@ -39,4 +39,36 @@
 
     ];
 
+// var_dump($hotels)
+
+// var_dump( array_keys($hotels)); 
+
+// var_dump( array_keys($hotels[0])); 
+
+// foreach($hotels as $hotel){
+  
+// // var_dump($hotel);
+// // var_dump($value);
+
+// };
+
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <?php foreach($hotels as $hotel => $value) ?>
+
+  <?php echo $hotel ?>
+
+</body>
+
+</html>
